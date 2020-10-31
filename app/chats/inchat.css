@@ -1,0 +1,151 @@
+#user-display {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-bottom: 1px solid #121212;
+    padding: 0.5em;
+    align-items: center;
+}
+
+.chat-icon {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.username {
+    margin: 3px;
+}
+
+.activity {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: green;
+    margin: 3px;
+}
+
+.chat-box {
+    display: flex;
+    flex-flow: column;
+}
+
+.chater-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+#sender {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#sent {
+    color: white;
+    background-color: rgb(0, 140, 255);
+    text-align: right;
+    font-size: 20px;
+    width: fit-content;
+    border: 1px solid #000;
+    border-radius: 15px 15px 0 15px;
+    padding: 0.1em;
+    float: right;
+}
+
+#sent > p {
+    margin: 5px;
+}
+
+.reciever {
+    margin-top: 10px;
+}
+
+.recieved {
+    color: white;
+    background-color: #154775;
+    font-size: 20px;
+    width: fit-content;
+    border: 1px solid #000;
+    border-radius: 15px 15px 15px 0;
+    padding: 0.1em;
+}
+
+.recieved > p {
+    margin: 5px;
+}
+
+.textarea {
+    bottom: 10px;
+    position: fixed;
+    padding: 0.5em;
+    box-shadow:0 0 0px rgba(0, 47, 255, 0.2);	
+    display: flex;
+    flex-direction: row;
+    width: 62%;
+    justify-content: space-evenly;
+}
+
+.textarea > input {
+    width: 90%;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-bottom: 2px solid #121212;
+}
+
+input[type=text]:focus {
+    border-bottom: 2px solid #0073df;
+    outline: none;
+}
+
+.send {
+    color: #000;
+    background-color: #0073df;
+    border: 1px solid #0073df;
+    border-radius: 5px;
+}
+
+hr {
+    color: #121212;
+    background-color: #121212;
+}
+
+.time-displayer {
+    text-align: center;
+    font-family: monospace;
+}
+
+/* Cell View */
+
+#active {
+    position: -webkit-sticky;
+}
+
+#rollbar {
+    overflow-x: scroll;
+    display: flex;
+    flex-flow: row;
+}
+
+#user {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+#user > img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#user > p {
+    margin: 5px 0;
+}

@@ -1,0 +1,32 @@
+.head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-bottom: 1px solid #121212;
+}
+
+.info-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.back-click {
+    color: white;
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.back-click:hover {
+    opacity: 0.8;
+}
+
+.pro-img {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #121212;
+    border-radius: 50%;
+
+}

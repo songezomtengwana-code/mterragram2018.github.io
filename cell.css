@@ -1,0 +1,94 @@
+/* INTRO */
+
+@media (max-width: 767px) {
+    header {
+      font-size: 10px;
+      border-bottom: 2px solid #121212;
+    }
+
+    #loginlayout {
+        padding: 1em;
+    }
+
+    .brand-name {
+        font-size: 10px;
+        padding: 0 1em;
+      }
+}
+
+/* INAPP */
+
+@media (max-width: 767px) {
+
+    body {
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .display {
+        width: 100%;
+    }
+
+    .main-user {
+        display: none;
+    }
+
+    #navi {
+        padding: 0 1em;
+        background-color: #000;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .chat {
+        padding: 0;
+        width: 100%;
+    }
+
+    .chat > h2 {
+        font-size: 17px;
+    }
+
+    #display {
+        display: none;
+    }
+
+    .textarea {
+        width: auto;
+        position: fixed;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        padding: 0.5;
+    }
+
+    .textarea > .input {
+        width: 220px;
+    }
+
+    #user-display {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-start;
+    }
+
+    #user-display > img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .username {
+        padding: 0 1em;
+    }
+
+}
+
+/* Laptop Sized */
+
+@media (min-width: 590px) {
+    .display {
+        display: none;
+    }
+}
